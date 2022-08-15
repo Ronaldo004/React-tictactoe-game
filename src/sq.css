@@ -1,0 +1,24 @@
+.square{
+    box-shadow: 0 0 0.9rem  rgba(0,0,0, 0.3);
+    width: 15vw;
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+@media only screen and (max-width:716px){
+
+    .square{
+      
+        width: 21vw;
+        height: 17vh;
+       
+     
+    }
+
+    .square h1{
+        font-size: 1rem;
+    }
+
+}
